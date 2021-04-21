@@ -21,15 +21,6 @@ map.push("XXXXXXXXXXXXXXXXXXX");
 maps.push(map);
 
 map = new Array();
-map.push("XXXXXXXXXXX");
-map.push("X oooXooo X");
-map.push("X   B@B   X");
-map.push("X BBXXXBB X");
-map.push("X   X X   X");
-map.push("XXXXX XXXXX");
-maps.push(map);
-
-map = new Array();
 map.push("XXXXXXXXXXXXXXXXXXX");
 map.push("X         X    X  X");
 map.push("X @ B     X   Xo  X");
@@ -48,6 +39,25 @@ map.push("X         X       X");
 map.push("X         X       X");
 map.push("XXXXXXXXXXXXXXXXXXX");
 maps.push(map);
+
+map = new Array();
+map.push("XXXXXXX")
+map.push("Xo B oX")
+map.push("X B@B X")
+map.push("Xo B oX")
+map.push("XXXXXXX")
+maps.push(map);
+
+map = new Array();
+map.push("       ####");
+map.push("########  ##");
+map.push("#          ###");
+map.push("# @BB ##   oo#");
+map.push("# BB   ##  oo#");
+map.push("#         ####");
+map.push("###########");
+maps.push(map);
+
 function Cell(x,y,value) {
   this.x = x;
   this.y = y;
